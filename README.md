@@ -7,4 +7,6 @@ This is a KFC website developed and inspired by Turkish design.
 4. App Download Section iOS & Android
 5. Reviews Section
 6. Video Container
-7. Footer Section
+   [Video URL :] (https://drive.google.com/file/d/1wZqDXFt6sa1v6RlLzdd8mJzIhpCLVGRQ/view?usp=drive_link)
+
+8. Footer Section
