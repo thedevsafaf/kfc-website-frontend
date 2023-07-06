@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.wrapper { 
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main { 
+    background-color: #EA3825;
+    height: 100vh;
+    width: 100vw;
+}
+
+#main .wrapper header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2% 0 2% 0;
+}
+
+#main .wrapper header .logo h2 { 
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+
+#main .wrapper header nav { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .wrapper header nav ul { 
+    display: flex;
+}
+
+#main .wrapper header nav ul li { 
+    margin: 20px;
+    list-style-type: none;
+}
+
+#main .wrapper header nav .btn { 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .wrapper header nav .btn img { 
+    width: 60%;
+    height: 60%;
+    padding: 1px;
+    
+}
+
+#main .wrapper .menu-button{
+    z-index: 9999;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    display: table;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background:#F4A32B;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+#main .wrapper .main-container { 
+    display: flex;
+    position: relative;
+}
+
+#main .wrapper .main-container .left { 
+    width: 50%;
+    padding: 3% 0;
+    color: white;
+}
+
+#main .wrapper .main-container .left h1 { 
+    font-size: 46px;
+    font-weight: bold;
+}   
+
+#main .wrapper .main-container .left p { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+#main .wrapper .main-container .left .btn { 
+    display: block;
+    border: 2px solid #fff;
+    width: 60%;
+    padding: 12px 16px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#main .wrapper .main-container .left .page-container { 
+    display: flex;
+    margin-top: 30px;
+}
+
+#main .wrapper .main-container .left .page-container .indicator { 
+    margin: 5px;
+    width: 12px;
+    height: 8px;
+    background: grey;
+    border-radius: 10px;
+}
+
+#main .wrapper .main-container .left .page-container .active{
+    background: #fff;
+}
+
+#main .wrapper .main-container .right { 
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .wrapper .main-container .right img { 
+    width: 70%;
+}
+
+
+#menu{
+    width: 100vw;
+    padding: 5%;
+}
+
+#menu .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#menu div img{
+    width: 160px;
+    height: 140px;
+    display: block;
+}
+
+#menu div img:first-child{
+    margin-left: 100px;
+}
+
+#cards{
+    padding: 7% 0 7%;
+    background: #E9D7CA;
+    width: 100vw;
+}
+
+#cards .top{
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+
+/* card 1 */
+
+#cards .top .card1{
+    width: 450px;
+    height: 200px;
+    background-image: url('./images/pexels-mariana-kurnyk-1775043.jpg');
+    background-color: #ffff;
+    border-radius: 30px;
+    display: flex;
+    margin-right: 30px;
+}
+
+#cards .top .card1 .left{
+    width: 50%;
+    padding: 16px 20px 16px 20px;
+}
+
+#cards .top .card1 .left h3{
+    font-size: 22px;
+    margin-bottom: 5px;   
+}
+
+#cards .top .card1 .left p{
+    margin-bottom: 5px; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#cards .top .card1 .left span{
+    color: crimson;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+#cards .top .card1 .right{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#cards .top .card1 .right img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* card 2 */
+
+#cards .top .card2{
+    width: 450px;
+    height: 200px;
+    background: #ED2E42;
+    border-radius: 30px;
+    display: flex;
+    color: #fff;
+    margin-right: 30px;
+}
+
+#cards .top .card2 .left{
+    width: 50%;
+    padding: 16px 20px 16px 20px;
+}
+
+#cards .top .card2 .left h3{
+    font-size: 22px;
+    margin-bottom: 5px;   
+}
+
+#cards .top .card2 .left p{
+    margin-bottom: 5px; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#cards .top .card2 .left span{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#cards .top .card2 .right{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#cards .top .card2 .right img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+/* card 3 */
+
+#cards .top .card3{
+    width: 450px;
+    height: 200px;
+    background-image: url('./images/pexels-mariana-kurnyk-1775043.jpg');
+    background-color: #ffff;
+    border-radius: 30px;
+    display: flex;
+    color: #000;
+}
+
+#cards .top .card3 .left{
+    width: 50%;
+    padding: 16px 20px 16px 20px;
+}
+
+#cards .top .card3 .left h3{
+    font-size: 22px; 
+}
+
+#cards .top .card3 .right{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#cards .top .card3 .right img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+#cards .bottom{
+    display: flex;
+    padding: 20px 0 20px 0;
+    /* background-color: #381014; */
+}
+
+/* card 1 bottom */
+
+#cards .bottom .card1{
+    width: 600px;
+    height: 200px;
+    background-image: url('./images/pexels-mariana-kurnyk-1775043.jpg');
+    background-position: right bottom;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-right: 30px;
+    display: flex;
+}
+
+#cards .bottom .card1 .left{
+    width: 50%;
+    padding: 16px 20px 16px 20px;
+}
+
+#cards .bottom .card1 .left h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 30px;   
+}
+
+#cards .bottom .card1 .left .btn{
+    display: block;
+    color: white;
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ED2E42;
+    padding: 16px 18px;
+    border-radius: 20px;
+}
+
+#cards .bottom .card1 .right{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#cards .bottom .card1 .right img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* card 2 bottom */
+
+#cards .bottom .card2{
+    width: 600px;
+    height: 200px;
+    background-image: url('./images/pexels-mariana-kurnyk-1775043.jpg');
+    background-position: right bottom;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+}
+
+#cards .bottom .card2 .left{
+    width: 50%;
+    padding: 16px 20px 16px 20px;
+}
+
+#cards .bottom .card2 .left h3{
+    font-size: 22px;
+    margin-bottom: 40px;  
+}
+
+#cards .bottom .card2 .left .btn{
+    display: block;
+    color: white;
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ED2E42;
+    padding: 16px 18px;
+    border-radius: 20px;
+}
+
+#cards .bottom .card2 .right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards .bottom .card2 .right img{
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+#apps{
+    padding: 0%;
+    background: #F4A32B;
+    width: 100vw;  
+}
+
+#apps .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#apps .container .left{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+#apps .container .left img.app-image{
+    width: 50%;
+    height: 50%;
+}
+
+#apps .container .left img.bg-image{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    z-index: -1;
+    width: 90%;
+    height: 90%;
+}
+
+#apps .container .right{
+    width: 50%;
+    padding: 36px;
+}
+
+#apps .container .right h2{
+    color: white;
+    font-size: 32px;
+}
+
+#apps .container .right .app-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#apps .container .right .app-container img{
+    width: 30%;
+    height: 20%;
+    margin-right: 10px;
+}
+
+#reviews{
+    background: #E9D7CA;
+    width: 100vw;
+    padding: 5% 0 7% 0;
+
+}
+
+#reviews .container{
+    width: 100%;
+    display: flex;
+}
+
+#reviews .left{
+    /* background: rgb(136, 123, 99); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-right: 30px;
+}
+
+#reviews .left .top-cards{
+    /* background: #EA3825; */
+    display: flex;
+   
+}
+
+#reviews .left .top-cards .card1, #reviews .left .top-cards .card2{
+    padding: 8px 8px 32px 8px;
+    background: rgb(124, 45, 45);
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('./images/pexels-mariana-kurnyk-1775043.jpg');
+    background-color: #ffff;
+
+}
+
+#reviews .left .top-cards .card1 img, #reviews .left .top-cards .card2 img{
+    width: 25px;
+    height: 25px;
+}   
+
+#reviews .left .top-cards .card1 h3, #reviews .left .top-cards .card2 h3{
+    color: #1E2127;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+#reviews .left .top-cards .card1 p, #reviews .left .top-cards .card2 p{
+    color: rgba(17, 15, 15, 0.534);
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+#reviews .left .bottom-cards{
+    /* background: #3a6d33; */
+    display: flex;
+}
+
+#reviews .left .bottom-cards .card1, #reviews .left .bottom-cards .card2, #reviews .left .bottom-cards .card3{
+    padding: 8px 8px 32px 8px;
+    background: rgb(124, 45, 45);
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('./images/pexels-mariana-kurnyk-1775043.jpg');
+    background-color: #8c43c7;
+}
+
+#reviews .left .bottom-cards .card1 img, #reviews .left .bottom-cards .card2 img, #reviews .left .bottom-cards .card3 img{
+    width: 25px;
+    height: 25px;
+}
+
+#reviews .left .bottom-cards .card1 h3, #reviews .left .bottom-cards .card2 h3, #reviews .left .bottom-cards .card3 h3{
+    color: #1E2127;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#reviews .left .bottom-cards .card1 p, #reviews .left .bottom-cards .card2 p, #reviews .left .bottom-cards .card3 p{
+    color: rgba(17, 15, 15, 0.534);
+    font-size: 12px;
+    padding-left: 0px;
+}
+
+#reviews .right{
+    /* background: #fff9f9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#reviews .right video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 30px 24px;
+    border: 3px solid #fff;
+}
+
+
+#footer{
+    background: #ED2E42;
+    color: white;
+    width: 100vw;
+    padding: 2% 0 2% 0;
+}
+
+#footer .top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#footer .top .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+#footer .top .left .logo{
+    margin-right: 50px;
+}
+
+#footer .top .left .logo h2{
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#footer .top .left .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#footer .top .left .contact img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+#footer .top .left .contact p{
+    font-size: 14px;
+}
+
+#footer .top .left .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .top .left .email img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+#footer .top .left .email p{
+    font-size: 14px;
+}
+
+#footer .top .right{
+
+    display: flex;
+}
+
+#footer .top .right a{
+    margin-right: 10px;
+    padding: 4px 0 0 0;
+}
+
+#footer .top .right a img{
+    width: 30px;
+    height: 30px;
+}
+
+#end{
+    background: #1E2127;
+    width: 100vw;
+    padding: 3% 0 6% 0;
+    color: #E9D7CA;
+}
+
+#end .bottom{
+    width: 100%;
+    display: flex;
+}
+
+#end .bottom .left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#end .bottom .top{
+    display: flex;
+    margin-bottom: 46px;
+}
+
+#end .bottom .top ul{
+    padding: 0px 26px 0px 0;
+}
+#end .bottom .top ul li:hover{
+    cursor: pointer;
+}
+
+
+#end .bottom .top ul.list1 li, #end .bottom .top ul.list2 li, #end .bottom .top ul.list3 li, #end .bottom .top ul.list4 li{
+    color: rgba(255, 255, 255, 0.534);
+    list-style-type: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#end .bottom .bottom p{
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+#end .bottom .right{
+    width: 40%;
+    position: relative;
+}
+
+#end .bottom .right img{
+    width: 40%;
+    position: absolute;
+    top: 45px;
+    right: -10px;
+    width: 250px;
+}
