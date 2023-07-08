@@ -1,6 +1,12 @@
 # kfc-website-frontend
 This is a KFC website developed and inspired by Turkish design.
 
+Demo :
+
+https://github.com/thedevsafaf/kfc-website-frontend/assets/85129653/6911e1a4-cce1-4a25-a9aa-c4e94d4beed8
+
+Sections : 
+
 1. Landing Page
    
    ![landing page](https://github.com/thedevsafaf/kfc-website-frontend/assets/85129653/beb0520e-da31-4bea-8e20-78ae837a478a)
